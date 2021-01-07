@@ -36,4 +36,18 @@ header {
   margin: auto;
   position: relative;
   top: -39px;
+  text-align: center;
+  padding: 33px;
+  box-sizing: border-box;
+}
+
+.social-icons h1 {
+  margin: 0 0 36px 0;
+  color: #fff;
+  font-size: 20px;
+}
+
+.social-icons a {
+  text-decoration: none;
+  margin: 0 19px;
 }
