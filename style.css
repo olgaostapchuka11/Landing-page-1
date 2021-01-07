@@ -17,3 +17,11 @@ header {
   justify-content: space-between;
   margin: auto;
 }
+
+.sign-form {
+  width: 365px;
+  min-height: 470px;
+  background: #fff;
+  margin: 99px auto 0 auto;
+  border-radius: 3px;
+}
