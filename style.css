@@ -18,18 +18,21 @@ header {
   margin: auto;
 }
 
+main {
+  display: flex;
+  justify-content: center;
+}
+
 .sign-form {
-  width: 365px;
   min-height: 470px;
   background: #fff;
-  margin: 99px auto 0 auto;
+  margin-top: 99px;
   border-radius: 3px;
+  padding: 0 20.5px;
 }
 
 .social-icons {
-  width: 324px;
-  height: 150px;
-
+  height: 84px;
   background: linear-gradient(90deg, #bc478f 0%, #7b1fa2 100%);
   box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5), 0px 4px 25px rgba(0, 0, 0, 0.12);
   border-radius: 3px;
@@ -37,8 +40,7 @@ header {
   position: relative;
   top: -39px;
   text-align: center;
-  padding: 33px;
-  box-sizing: border-box;
+  padding: 33px 37px;
 }
 
 .social-icons h1 {
@@ -50,4 +52,31 @@ header {
 .social-icons a {
   text-decoration: none;
   margin: 0 19px;
+}
+
+form {
+  padding: 0 4px;
+}
+
+.first-name {
+  display: flex;
+  margin: auto;
+}
+
+.first-name input {
+  width: 269px;
+  border: 0;
+  border-bottom: 1px solid #d2d2d2;
+}
+
+.first-name input:focus {
+  outline: none;
+  border-bottom-color:  #7b1fa2;
+  transition: border-bottom-color 2s;
+}
+
+.first-name::before {
+  content: url("name.png");
+  margin-right: 15px;
+  margin-left: 4px;
 }
