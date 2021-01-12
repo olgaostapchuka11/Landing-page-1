@@ -10,6 +10,10 @@ header a {
   text-decoration: none;
   color: white;
 }
+main {
+  display: flex;
+  justify-content: center;
+}
 
 header {
   width: 1000px;
@@ -32,7 +36,12 @@ main {
 }
 
 .social-icons {
+<<<<<<< HEAD
+  width: 100%;
+  height: 150px;
+=======
   height: 84px;
+>>>>>>> 8b0f0563fef94a0d08a559646eee7a9db7514c84
   background: linear-gradient(90deg, #bc478f 0%, #7b1fa2 100%);
   box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5), 0px 4px 25px rgba(0, 0, 0, 0.12);
   border-radius: 3px;
@@ -41,6 +50,10 @@ main {
   top: -39px;
   text-align: center;
   padding: 33px 37px;
+<<<<<<< HEAD
+  box-sizing: border-box;
+=======
+>>>>>>> 8b0f0563fef94a0d08a559646eee7a9db7514c84
 }
 
 .social-icons h1 {
@@ -60,7 +73,10 @@ form {
 
 .first-name {
   display: flex;
+<<<<<<< HEAD
+=======
   margin: auto;
+>>>>>>> 8b0f0563fef94a0d08a559646eee7a9db7514c84
 }
 
 .first-name input {
@@ -71,12 +87,24 @@ form {
 
 .first-name input:focus {
   outline: none;
+<<<<<<< HEAD
+  border-bottom-color: #7b1fa2;
+=======
   border-bottom-color:  #7b1fa2;
+>>>>>>> 8b0f0563fef94a0d08a559646eee7a9db7514c84
   transition: border-bottom-color 2s;
 }
 
 .first-name::before {
+<<<<<<< HEAD
+  content: url("face.png");
+  margin-right: 15px;
+  margin-left: 4px;
+}
+
+=======
   content: url("name.png");
   margin-right: 15px;
   margin-left: 4px;
 }
+>>>>>>> 8b0f0563fef94a0d08a559646eee7a9db7514c84
